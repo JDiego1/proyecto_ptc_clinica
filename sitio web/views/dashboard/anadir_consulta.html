@@ -1,0 +1,139 @@
+<html lang="en">
+<!--Head-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Clinica Ciruderma</title>
+    <!--Fuente icono de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../../../materialize/materialize/css/materialize.min.css"
+        media="screen,projection" />
+    <!--Importar style.css-->
+    <link type="text/css" rel="stylesheet" href="../../resources/css/style.css" media="screen,projection" />
+    <!--Dejar saber al navegador si el dispositivo esta optimizado-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Imagen icono para la pagina web-->
+    <link rel="icon" type="image/x-icon" href="../../resources/img/logo.ico">
+</head>
+<!--Body-->
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Navbar-->
+        <nav>
+            <div class="navbar-fixed  teal lighten-5">
+                <a href="#!" class="brand-logo">WG Store</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href=""><i class="material-icons left">arrow_drop_down</i>Consultas</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href=""><i class="material-icons left">account_circle</i>Iniciar
+                    sesión</a></li>
+            <li><a href="">Sobre Nosotros</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </header>
+    <!--Main-->
+    <main>
+        <div class="container">
+            <div class="row">
+                <h2 class="center-align white">Añadir Consulta</h2>
+            </div>
+
+            <div class="row">
+                <form class="col s12">
+                    <!--div class="row">
+                        <div class="input-field col s6">
+                          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                          <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Last Name</label>
+                        </div>
+                      </div-->
+
+                    <div class="row">
+                        <div class="input-field col l8 s12">
+                            <select>
+                                <option value="" disabled selected>Selecciona el nombre completo del Paciente</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                            <label>Paciente</label>
+                        </div>
+
+                    </div>
+
+                        <form class="col l8 s12">
+                          <div class="row">
+                            <div class="input-field col l8 s12">
+                              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                              <label for="textarea1">Motivo de la Consulta</label>
+                            </div>
+                          </div>
+                        </form>
+                        
+                        <form class="col l8 s12">
+                            <div class="row">
+                              <div class="input-field col l12 s12">
+                                <textarea id="textarea2" class="materialize-textarea"></textarea>
+                                <label for="textarea2">Enfermedad Actual</label>
+                              </div>
+                            </div>
+                          </form>
+                          
+                          <form class="col l5 s12">
+                            <div class="row">
+                              <div class="input-field col l9 s12">
+                                <textarea id="textarea3" class="materialize-textarea"></textarea>
+                                <label for="textarea3">Antecedentes Personales</label>
+                              </div>
+                            </div>
+                          </form>
+                          <form class="col l5 s12">
+                            <div class="row">
+                              <div class="input-field col l7 s12">
+                                <textarea id="textarea4" class="materialize-textarea"></textarea>
+                                <label for="textarea4">Antecedentes Familiares</label>
+                              </div>
+                            </div>
+                          </form>
+                       
+           
+
+                    <!--div class="row">
+                        <div class="input-field col s12">
+                          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                          <label for="disabled">Disabled</label>
+                        </div>
+                      </div-->
+
+                </form>
+            </div>
+<div class="row">
+    <a class="waves-effect waves-light btn-large">AÑADIR EXAMEN FÍSICO</a>
+<a class="waves-effect waves-light btn-large"><i class="material-icons right">cloud</i>COMPLETAR INFORME</a>
+<a class="waves-effect waves-light btn-large"><i class="material-icons right">cloud</i>VER REGISTRO DE CONSUTAS</a>
+</div>
+
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+
+    </footer>
+    <!--JavaScript al final del cuerpo para una carga optimizada-->
+    <script type="text/javascript" src="../../../materialize/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../../controllers/public/index.js"></script>
+    <script type="text/javascript" src="../../controllers/dashboard/anadir_consulta.js"></script>
+
+</body>
+
+</html>
