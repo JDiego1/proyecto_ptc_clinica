@@ -1,0 +1,26 @@
+.navbar-fixed a{
+    color: black;
+}
+
+p{
+    color: black;
+    font-size: large;
+}
+
+.col h2{
+
+    color: #80cbc4 ;
+}
+
+.header{
+
+    color: #8d6e63 ;
+}
+
+.img12{
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 63px;
+    width: 150px;
+}
