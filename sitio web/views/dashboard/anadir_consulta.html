@@ -119,7 +119,8 @@
 
                 <div class="row">
                     <div class="col l4 s6">
-                        <a class="waves-effect waves-light btn-small"><i class="material-icons right">cloud</i>AÑADIR
+                        <a class="waves-effect waves-light btn-small modal-trigger" href="#modal1"><i
+                                class="material-icons right">cloud</i>AÑADIR
                             EXAMEN FÍSICO</a>
                     </div>
                     <!--/div-->
@@ -137,6 +138,64 @@
                             REGISTRO DE CONSUTAS</a>
                     </div>
                     <!--/div-->
+                </div>
+            </div>
+
+            <!-- Modal Trigger -->
+            <!--a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a-->
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Examen Físico</h4>
+                    <p>A bunch of text</p>
+
+                    <form class="col l3 s12">
+                        <div class="row">
+                            <div class="input-field col l3 s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Tensión Arterial</label>
+                            </div>
+                            <div class="input-field col l3 s12">
+                                <textarea id="textarea2" class="materialize-textarea"></textarea>
+                                <label for="textarea2">Frecuencia Cardiaca</label>
+                            </div>
+                            <div class="input-field col l3 s12">
+                                <textarea id="textarea3" class="materialize-textarea"></textarea>
+                                <label for="textarea3">Frecuencia Respiratoria</label>
+                            </div>
+                            <div class="input-field col l3 s12">
+                                <textarea id="textarea4" class="materialize-textarea"></textarea>
+                                <label for="textarea4">Talla</label>
+                            </div>
+                            <div class="input-field col l3 s12">
+                                <textarea id="textarea5" class="materialize-textarea"></textarea>
+                                <label for="textarea5">Peso</label>
+                            </div>
+                        </div>
+
+                    </form>
+                    <form class="col l12 s12">
+                        <div class="row">
+                            <div class="input-field col l12 s12">
+                                <textarea id="textarea4" class="materialize-textarea"></textarea>
+                                <label for="textarea4">Detalles</label>
+                            </div>
+                        </div>
+                    </form>
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <!--a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a-->
+
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i
+                            class="material-icons right">cancel</i>CANCELAR</a>
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i
+                                class="material-icons right">check_circle</i>COMPLETAR EXAMEN FÍSICO</a>
+
                 </div>
             </div>
 
